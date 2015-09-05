@@ -11,7 +11,7 @@ These two counters that keep track of the requests are named `$httpOpen` and `$h
 Example:
 
 ```html
-<button class="btn btn-primary" ng-disabled="$httpModifying" ng-click="view.save()">Save</button>
+<button ng-disabled="$httpModifying" ng-click="view.save()">Save</button>
 ```
 
 ## utils.autoFocus
